@@ -1,30 +1,49 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+
+namespace NumberGuessingGame
+{
+    class Program
     {
-        // Loop from 1 to 100
-        for (int i = 1; i <= 100; i++)
+        static void Main(string[] args)
         {
-            // Check for multiples of both 3 and 5 first
-            if (i % 3 == 0 && i % 5 == 0)
+            // Generate a random number between 1 and 100
+            Random random = new Random();
+            int numberToGuess = random.Next(1, 101);
+            
+            Console.WriteLine("I have chosen a number between 1 and 100. Try to guess it!");
+
+            // Initialize the guess to something outside the range
+            int guess = 0;
+
+            // Loop until the user guesses the correct number
+            while (guess != numberToGuess)
             {
-                Console.WriteLine("FizzBuzz");
+                Console.Write("Enter your guess: ");
+                string input = Console.ReadLine();
+
+                // Check if the input is a valid integer
+                if (!int.TryParse(input, out guess))
+                {
+                    Console.WriteLine("Please enter a valid number.");
+                    continue;
+                }
+
+                // Provide feedback on the guess
+                if (guess > numberToGuess)
+                {
+                    Console.WriteLine("Too high, guess again: ");
+                }
+                else if (guess < numberToGuess)
+                {
+                    Console.WriteLine("Too low, guess again: ");
+                }
             }
-            // Check for multiples of 3
-            else if (i % 3 == 0)
-            {
-                Console.WriteLine("Fizz");
-            }
-            // Check for multiples of 5
-            else if (i % 5 == 0)
-            {
-                Console.WriteLine("Buzz");
-            }
-            // Print the number itself if not a multiple of 3 or 5
-            else
-            {
-                Console.WriteLine(i);
-            }
+
+            // Congratulate the user for guessing the correct number
+            Console.WriteLine($"Congratulations! You've guessed the right number: {numberToGuess}");
         }
     }
 }
+
 
