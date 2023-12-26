@@ -1,0 +1,15 @@
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/bin/Debug/net8.0/ConsoleAppTesting
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/bin/Debug/net8.0/ConsoleAppTesting.deps.json
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/bin/Debug/net8.0/ConsoleAppTesting.runtimeconfig.json
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/bin/Debug/net8.0/ConsoleAppTesting.dll
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/bin/Debug/net8.0/ConsoleAppTesting.pdb
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.AssemblyInfoInputs.cache
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.AssemblyInfo.cs
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.csproj.CoreCompileInputs.cache
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.sourcelink.json
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.dll
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/refint/ConsoleAppTesting.dll
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.pdb
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ConsoleAppTesting.genruntimeconfig.cache
+/Users/smendoza1/C-Sharp-Notes-MarkDown/ConsoleAppTesting/obj/Debug/net8.0/ref/ConsoleAppTesting.dll
